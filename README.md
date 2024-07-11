@@ -4,10 +4,9 @@
 
 This batch script automates the startup of NVIDIA RTX Voice on Windows and sets its process priority to High automatically. Here’s how it works:
 
-- **Change Directory**: The script navigates to the directory where NVIDIA RTX Voice is installed.
-- **Start Application**: It launches NVIDIA RTX Voice using the `start` command.
-- **Wait**: It waits for 10 seconds (`timeout /t 10`) to ensure the application has enough time to initialize.
-- **Set Priority**: Using `wmic`, the script finds the process by name (`NVIDIA RTX Voice.exe`) and sets its priority to High (`128`).
+- **Getting Start**: Download the bat file and double-click on it. it will run the rtx voice app and automatically set the priority to High.
+- to check if the priority is set or not go to your task manager. if you see its priority is high that means you are good to go now add the `bat` file to your task scheduler
+- so that the script runs automatically when your system boots,
 
 ## Auto-Start Guide Using Task Scheduler
 
